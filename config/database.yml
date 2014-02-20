@@ -39,6 +39,6 @@ production:
   database: [database]
   username: [username]
   password: [password]
-  host:   ec2-107-22-234-129.compute-1.amazonaws.com
+  host:   ec2-54-204-41-178.compute-1.amazonaws.com
   port: 5432
 
