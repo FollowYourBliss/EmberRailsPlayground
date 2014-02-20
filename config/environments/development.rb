@@ -1,3 +1,8 @@
+require 'bcrypt'
+silence_warnings do
+  BCrypt::Engine::DEFAULT_COST = BCrypt::Engine::MIN_COST
+end
+
 EmberRailsPlayground::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -26,4 +31,6 @@ EmberRailsPlayground::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  config.ember.variant = :development
 end
