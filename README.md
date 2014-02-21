@@ -1,4 +1,7 @@
 EmberRailsPlayground
 ====================
 
-Rails with Ember app to experiment with ember and rails
+App to experiment with ember and rails
+<br/>
+Based on
+https://github.com/heartsentwined/ember-auth-rails-demo
